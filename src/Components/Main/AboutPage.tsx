@@ -14,7 +14,8 @@ function AboutPage({ setShowAboutPage }: AboutPageProps) {
             <div className="flex flex-col w-full h-full">
               <p>
                 <strong>This is not a trip planner,</strong> this is proof of concept of a way to quickly track what the
-                next bus is for specefied route for a specefied stop.
+                next bus is for specefied route for a specefied stop. This currently only works with bus transit around
+                Seattle.
               </p>
               <p>
                 <strong>Author:</strong> Emily Wagner
@@ -42,16 +43,19 @@ function AboutPage({ setShowAboutPage }: AboutPageProps) {
             <ol className=" list-decimal ml-6">
               <li>
                 Overhaul CSS for bus and bus stop map markers to be show more information, and be more clear and
-                informative
+                informative.
               </li>
               <li>
-                <p>Multiple Methods of saving the watched stop list and user configs (basically user state)</p>
+                <p>Multiple Methods of saving the watched stop list and user configs (basically user state).</p>
                 <ol className="list-decimal ml-6">
                   <li>Via generated URL</li>
                   <li>Via account registration</li>
                   <li>Via Local Storage</li>
                 </ol>
               </li>
+              <li>Get mobile rendering working correctly.</li>
+              <li>Add more cities</li>
+              <li>Optimistic updates</li>
             </ol>
           </div>
           {/* Footer */}
